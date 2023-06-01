@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN de font-awesome -->
+    <!-- CDN son las siglas para Content Delivery Network (Red de Distribución de Contenidos) y, tal como su nombre lo indica, se trata de una red de servidores encargada de distribuir contenidos en Internet de manera más rápida y eficiente gracias a una serie de POPs (Puntos de Presencia) situados alrededor del mundo. -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Mi portafolio</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <!-- Imagenes para agregar al fondo -->
+        <div class="overlay overlay-lg">
+          <img src="./img/shapes/square.svg" class="shape square" alt="" />
+          <img src="./img/shapes/circle.svg" class="shape circle" alt="" />
+          <img
+            src="./img/shapes/half-circle.svg"
+            class="shape half-circle1"
+            alt=""
+          />
+          <img
+            src="./img/shapes/half-circle.svg"
+            class="shape half-circle2"
+            alt=""
+          />
+          <img src="./img/shapes/x.svg" class="shape xshape" alt="" />
+          <img src="./img/shapes/wave.svg" class="shape wave wave1" alt="" />
+          <img src="./img/shapes/wave.svg" class="shape wave wave2" alt="" />
+          <img src="./img/shapes/triangle.svg" class="shape triangle" alt="" />
+          <img src="./img/shapes/circles.svg" class="circles" alt="" />
+          <img src="./img/shapes/points1.svg" class="points points1" alt="" />
+        </div>
+
+        <!-- Barra de navegación principal -->
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <a href="index.html">M<span>M</span></a>
+            </div>
+
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#header">Home</a>
+                </li>
+                <li>
+                  <a href="#services">Servicios</a>
+                </li>
+                <li>
+                  <a href="#portfolio">Portafolio</a>
+                </li>
+                <li>
+                  <a href="#about">Acerca de</a>
+                </li>
+                <li>
+                  <a href="#testimonials">Testimonios</a>
+                </li>
+                <li>
+                  <a href="#contact">Contácto</a>
+                </li>
+                <li>
+                  <a
+                    href="https://wa.me/+573121234567"
+                    target="_blank"
+                    class="active"
+                    >WhatsApp</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Menu hamburguesa para agregar en movil -->
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Contenido para el header -->
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="column-1">
+              <!-- Titulo principal -->
+              <h1 class="header-title">Mauricio <span>Muñoz</span></h1>
+              <p class="text">
+                Hola, Soy Mauricio Muñoz, diseñador y desarrollador web. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Totam magni
+                sit hic!
+              </p>
+              <!-- Boton de descarga de CV -->
+              <a download href="#" target="_blank">
+                <button class="btn">Descargar CV</button>
+              </a>
+            </div>
+            <!-- Imagen principal para el header -->
+            <div class="column-2 image">
+              <img
+                src="./img/shapes/points2.svg"
+                class="points points2"
+                alt=""
+              />
+              <img src="./img/person.png" class="img-element z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Sección de servicios -->
+
+      <section class="services section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Lo que hago">Servicios</h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
+              vero?
+            </p>
+          </div>
+
+          <div class="cards">
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.svg"
+                class="points points1 points-sq"
+                alt=""
+              />
+              <div class="card" data-card="UI/UX">
+                <div class="card-content z-index">
+                  <img src="./img/design-icon.svg" class="icon" alt="" />
+                  <h3 class="title-sm">Diseño WEB</h3>
+                  <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                    est suscipit itaque?
+                  </p>
+                  <a href="#" class="btn small">Ver más</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <div class="card" data-card="Code">
+                <div class="card-content z-index">
+                  <img src="./img/code-icon.svg" class="icon" alt="" />
+                  <h3 class="title-sm">Desarrollo WEB</h3>
+                  <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolores suscipit nobis dolore?
+                  </p>
+                  <a href="#" class="btn small">Ver más</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.svg"
+                class="points points2 points-sq"
+                alt=""
+              />
+              <div class="card" data-card="App">
+                <div class="card-content z-index">
+                  <img src="./img/app-icon.svg" class="icon" alt="" />
+                  <h3 class="title-sm">Desarrollo de Apps</h3>
+                  <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatum hic veniam nihil.
+                  </p>
+                  <a href="#" class="btn small">Ver más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
